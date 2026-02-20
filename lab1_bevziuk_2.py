@@ -157,7 +157,7 @@ class RootApp:
         print("Корінь:", root_bis_r)
         print("\nМетод хорд")
         print("Ітерацій:", iter_ch)
-        print("Корінь:", root_ch)
+        print("Корінь:", root_ch_r)
 
         # таблиця
         for widget in self.result_frame.winfo_children():
@@ -228,4 +228,5 @@ class RootApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = RootApp(root)
+
     root.mainloop()
